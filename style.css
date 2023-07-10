@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #ce7272;         
+    --primary-color: #7f3535;         
     --secondary-color: #fad6a1;    
-    --light-color: #211f26;           
-    --dark-color: #33353e;
+    --light-color: #fecfcf;           
+    --dark-color: #292828;
   }
 
   body, header, main, footer {
