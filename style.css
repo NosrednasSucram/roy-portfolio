@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #ce7272;         
+    --secondary-color: #fad6a1;    
+    --light-color: #211f26;           
+    --dark-color: #33353e;
+  }
+
+  body, header, main, footer {
+    display: flex;
+  }  
+
+  body {
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-color);
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header {
+    color: var(--secondary-color);
+  }
+
+  .blob-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blob {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-size: 1.25em;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 10px;
+  }
