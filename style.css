@@ -18,6 +18,7 @@
 
   header {
     color: var(--secondary-color);
+    justify-content: center;
   }
 
   .blob-container {
@@ -29,7 +30,7 @@
     background-color: var(--primary-color);
     color: var(--light-color);
     font-size: 1.25em;
-    padding: 2vw;
-    margin: 2vw;
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
   }
